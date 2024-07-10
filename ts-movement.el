@@ -4,7 +4,6 @@
 
 ;; Author: Harit Kapadia <haritkapadia@outlook.com>
 ;; Version: 0.1
-;; Package-Requires: ((treesit))
 ;; Keywords:
 ;; URL:
 
