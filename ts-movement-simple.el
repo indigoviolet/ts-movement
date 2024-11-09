@@ -54,16 +54,16 @@
     (goto-char (1- (treesit-node-end node)))))
 
 ;;;###autoload
-(defvar ts-movement-map
+(defvar ts-movement-simple-map
   (let ((map (make-sparse-keymap "Tree Sitter Movement")))
     ;; Add your preferred keybindings here
     map)
   "Keymap for `ts-movement-mode'.")
 
 ;;;###autoload
-(define-minor-mode ts-movement-mode
+(define-minor-mode ts-movement-simple-mode
   "Movement commands using treesit syntax tree."
-  :keymap ts-movement-map)
+  :keymap ts-movement-simple-map)
 
 (provide 'ts-movement-simple)
 ;;; ts-movement-simple.el ends here
